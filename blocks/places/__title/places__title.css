@@ -9,6 +9,12 @@
   color: #FFF;
 }
 
+@media (max-width: 2047px) {
+  .places__title {
+    max-width: 440px;
+  }
+}
+
 @media (max-width: 1023px) {
   .places__title {
     max-width: 340px;

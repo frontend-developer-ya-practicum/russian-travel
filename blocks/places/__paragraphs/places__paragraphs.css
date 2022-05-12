@@ -4,9 +4,3 @@
   flex-direction: column;
   gap: 26px;
 }
-
-@media (max-width: 767px) {
-  .places__paragraphs {
-    max-width: 288px;
-  }
-}

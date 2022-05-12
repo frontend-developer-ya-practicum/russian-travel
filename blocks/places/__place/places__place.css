@@ -1,6 +1,4 @@
 .places__place {
-  max-width: 984px;
-  margin: 0 148px;
   display: grid;
   grid-template-areas:
     "title url"
@@ -11,30 +9,23 @@
 
 @media (max-width: 1279px) {
   .places__place {
-    max-width: 928px;
     column-gap: 32px;
-    margin: 0 48px;
   }
 }
 
 @media (max-width: 1023px) {
   .places__place {
-    max-width: 720px;
     column-gap: 28px;
-    margin: 0 24px;
   }
 }
 
 @media (max-width: 767px) {
   .places__place {
-    max-width: 340px;
     grid-template-areas:
       "title"
       "url"
       "image"
       "pharagraphs";
-    gap: 32px;
-    align-content: center;
-    margin: 0;
+    row-gap: 32px;
   }
 }
