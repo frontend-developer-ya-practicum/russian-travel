@@ -3,7 +3,7 @@
   align-self: end;
 }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .places__website {
     margin: 0 16px;
   }
