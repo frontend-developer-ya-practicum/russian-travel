@@ -3,7 +3,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  min-height: 740px;
+  min-height: 594px;
   width: 100%;
   text-decoration: none;
   display: flex;
@@ -30,18 +30,24 @@
 
 @media screen and (max-width: 1279px) {
   .cover__background {
-    min-height: 640px;
+    min-height: 562px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .cover__background {
-    min-height: 480px;
+    min-height: 500px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .cover__background {
-    min-height: 200px;
+    min-height: 272px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .cover__background {
+    min-height: 216px;
   }
 }

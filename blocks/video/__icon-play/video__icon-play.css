@@ -1,0 +1,23 @@
+.video__icon-play {
+  background-image: url(../../../images/video-play-icon.svg);
+  width: 41px;
+  height: 41px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+
+@media screen and (max-width: 1023px) {
+  .video__icon-play {
+    top: 25px;
+    left: 25px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .video__icon-play {
+    top: 16px;
+    left: 16px;
+  }
+}

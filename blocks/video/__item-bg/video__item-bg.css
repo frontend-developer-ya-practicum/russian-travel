@@ -1,0 +1,22 @@
+.video__item-bg {
+  width: 100%;
+  min-height: 323px;
+}
+
+@media screen and (max-width: 1279px) {
+  .video__item-bg {
+    min-height: 288px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .video__item-bg {
+    min-height: 200px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .video__item-bg {
+    min-height: 192px;
+  }
+}
