@@ -1,0 +1,18 @@
+.comments__item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+@media screen and (max-width: 1023px) {
+  .comments__item {
+    max-width: 383px;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .comments__item {
+    max-width: calc(100% - 2 * 16px);
+  }
+}

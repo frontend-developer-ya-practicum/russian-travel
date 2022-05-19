@@ -49,6 +49,13 @@
 @import url(../blocks/video/__title/video__title.css);
 @import url(../blocks/video/__subtitle/video__subtitle.css);
 
+@import url(../blocks/comments/comments.css);
+@import url(../blocks/comments/__list/comments__list.css);
+@import url(../blocks/comments/__item/comments__item.css);
+@import url(../blocks/comments/__image/comments__image.css);
+@import url(../blocks/comments/__quote/comments__quote.css);
+@import url(../blocks/comments/__quote-author/comments__quote-author.css);
+
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);

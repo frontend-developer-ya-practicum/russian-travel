@@ -1,0 +1,27 @@
+.comments__list {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 19px;
+  padding: 0;
+  margin: 72px 0 0;
+  justify-items: center;
+}
+
+@media screen and (max-width: 1023px) {
+  .comments__list {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .comments__list {
+    margin: 48px auto 0;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .comments__list {
+    margin: 40px auto 0;
+  }
+}
